@@ -1,0 +1,105 @@
+body{
+    background: #FFFFFF;
+}
+
+#wrapper{
+    background: #FFFFFF;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 1296px;
+    margin-top: 50px;
+}
+
+.navbar-default .container-fluid{
+    max-width: 1296px;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+    float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+    min-width: 74px;
+    margin-right: 0;
+    margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 19px;
+    border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+    margin-right: -1px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+    border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+    border-color: #ddd transparent #ddd #ddd;
+    *border-right-color: #ffffff;
+}
+
+.content_tab{
+    display: none;
+}
+
+#dashboard_tab{
+    display: block;
+}
+
+.navbar-default{
+    background: #fdfaef!important;
+    padding-top: 48px;
+    border-bottom: 1px dashed #959595;
+}
+
+#bs-example-navbar-collapse-1{
+    position: relative;
+    display: block;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #ff8f00;
+    background: #FFF!important;
+    border: 1px dashed #959595;
+    box-shadow: none;
+}
+
+.navbar-nav > li > a {
+    color: #ff8f00;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: arial;
+    font-style: inherit;
+    font-weight: bold;
+    box-shadow: none!important;
+    cursor: pointer;
+}
+
+.navbar-nav > li > a:hover{
+    color: #ff8f00 !important;
+}
+
+.container-fluid{
+    padding: 0;
+}
+.image_logo{
+    height: 58px;
+    margin-top: 14px;
+    margin-left: 0px;
+}

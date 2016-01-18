@@ -4,6 +4,7 @@ inherit = metadata.common
 [general]
 basename = adblockpluschrome
 permissions = tabs
+  activeTab
   http://*/*
   https://*/*
   contextMenus
@@ -13,10 +14,12 @@ permissions = tabs
   storage
   unlimitedStorage
   notifications
-options = options.html
-browserAction = icons/abp-19.png icons/abp-38.png popup.html
-icons = icons/abp-16.png icons/abp-32.png icons/detailed/abp-48.png
-  icons/detailed/abp-64.png icons/detailed/abp-128.png
+  contentSettings
+  cookies
+options = /operando/operando.html
+browserAction = icons/operando/abp-19.png icons/operando/abp-38.png popup.html
+icons = icons/operando/abp-16.png icons/operando/abp-32.png icons/operando/detailed/abp-48.png
+  icons/operando/detailed/abp-64.png icons/operando/detailed/abp-128.png
 webAccessible = block.html
 managedStorageSchema = managed-storage-schema.json
 
@@ -24,15 +27,15 @@ managedStorageSchema = managed-storage-schema.json
 chrome = 28.0
 
 [mapping]
-icons/abp-19.png = chrome/icons/abp-19.png
-icons/abp-19-whitelisted.png = chrome/icons/abp-19-whitelisted.png
-icons/abp-19-notification-critical.png = chrome/icons/abp-19-notification-critical.png
-icons/abp-19-notification-information.png = chrome/icons/abp-19-notification-information.png
-icons/abp-38.png = chrome/icons/abp-38.png
-icons/abp-38-whitelisted.png = chrome/icons/abp-38-whitelisted.png
-icons/abp-38-notification-critical.png = chrome/icons/abp-38-notification-critical.png
-icons/abp-38-notification-information.png = chrome/icons/abp-38-notification-information.png
-icons/detailed/abp-48.png = chrome/icons/detailed/abp-48.png
+icons/abp-19.png = operando/icons/abp-19.png
+icons/abp-19-whitelisted.png = operando/icons/abp-19-whitelisted.png
+icons/abp-19-notification-critical.png = operando/icons/abp-19-notification-critical.png
+icons/abp-19-notification-information.png = operando/icons/abp-19-notification-information.png
+icons/abp-38.png = operando/icons/abp-38.png
+icons/abp-38-whitelisted.png = operando/icons/abp-38-whitelisted.png
+icons/abp-38-notification-critical.png = operando/icons/abp-38-notification-critical.png
+icons/abp-38-notification-information.png = operando/icons/abp-38-notification-information.png
+icons/detailed/abp-48.png = operando/icons/detailed/abp-48.png
 managed-storage-schema.json = chrome/managed-storage-schema.json
 
 [convert_img]

@@ -1,5 +1,5 @@
 [general]
-version = 1.9.4
+version = 0.0.1
 backgroundScripts = ext/common.js
   ext/background.js
   lib/compat.js
@@ -14,6 +14,7 @@ backgroundScripts = ext/common.js
   messageResponder.js
   popupBlocker.js
   background.js
+  operando/operando_background.js
 testScripts = ../ext/common.js
   ../ext/background.js
   ../lib/compat.js
@@ -35,6 +36,7 @@ permissions = http://*/* https://*/*
 
 [contentScripts]
 document_start = ext/common.js ext/content.js cssProperties.js include.preload.js
+    operando/operando_content.js
 document_end = include.postload.js
 
 [mapping]

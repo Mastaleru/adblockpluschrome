@@ -212,5 +212,33 @@
         "content": "$1"
       }
     }
+  },
+  "operando":{
+    "message":"OPERANDO",
+    "description":"This is an OPERANDO tab"
+  },
+  "follow_unsecured_links":{
+    "message":"Follow unsecured links",
+    "description":"Follow http links."
+  },
+  "accept_unsecured_submits":{
+    "message":"Accept unsecured submits",
+    "description":"Allow to POST data unencrypted"
+  },
+  "blocked_links":{
+    "message": "$number$ unsecured blocked links",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
+  },
+  "blocked_submits":{
+    "message": "$number$ unsecured submits were blocked",
+    "placeholders": {
+      "number": {
+        "content": "$1"
+      }
+    }
   }
 }

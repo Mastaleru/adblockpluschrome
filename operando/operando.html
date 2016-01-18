@@ -1,0 +1,117 @@
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="/operando/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/operando/assets/bootstrap/css/operando-theme.css">
+    <link rel="stylesheet" type="text/css" href="/operando/assets/bootstrap/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="/operando/assets/bootstrap/js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="/operando/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/operando/assets/bootstrap/js/jquery.bootstrap.wizard.js"></script>
+    <script type="text/javascript" src="/operando/assets/bootstrap/js/operando-theme.js"></script>
+    <script type="text/javascript" src="/operando/options.js" charset="utf-8"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="image_logo" alt="Brand" src="/operando/icons/operando_logo82.png">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a target-tab="dashboard_tab">Dashboard </a></li>
+                <li><a target-tab = "privacy_tab" >Privacy</a></li>
+                <li><a target-tab = "identity_management_tab" >Identity Management</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li>
+                    <a   target-tab="security_issues_tab">Security issues </a>
+
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<div id="wrapper">
+
+
+    <!--DASHBOARD-->
+    <div id="dashboard_tab" class="active content_tab" >
+        <!-- tabs left -->
+        <div class="tabbable tabs-left clearfix" >
+            <ul class="nav nav-tabs">
+                <li><a href="#a" data-toggle="tab">One</a></li>
+                <li class="active"><a href="#b" data-toggle="tab">Two</a></li>
+                <li><a href="#c" data-toggle="tab">Twee</a></li>
+            </ul>
+            <div class="tab-content clearfix">
+                <div class="tab-pane active" id="a">Lorem ipsum dolor sit amet, charetra varius quam sit amet vulputate.
+                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</div>
+                <div class="tab-pane" id="b">Secondo sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+                    Aliquam in felis sit amet augue.</div>
+                <div class="tab-pane" id="c">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+                    Quisque mauris augue, molestie tincidunt condimentum vitae. </div>
+            </div>
+        </div>
+        <!-- /tabs -->
+    </div>
+    <!-- END DASHBOARD-->
+
+
+    <!--PRIVACY-->
+    <div id="privacy_tab" class="content_tab">
+        <!-- tabs left -->
+        <div class="tabbable tabs-left clearfix" >
+            <ul class="nav nav-tabs">
+                <li><a href="#sn" data-toggle="tab">Social Networks</a></li>
+                <li class="active"><a href="#ea" data-toggle="tab">Extension & Apps</a></li>
+                <li><a href="#pfb" data-toggle="pfb">PfB</a></li>
+            </ul>
+            <div class="tab-content clearfix">
+                <div class="tab-pane active" id="sn">
+
+                    <button id="set_linkedin_privacy">Set LinkedIn Privacy</button>
+
+                </div>
+                <div class="tab-pane" id="ea">Extension & Apps.</div>
+                <div class="tab-pane" id="pfb">PfB </div>
+            </div>
+        </div>
+        <!-- /tabs -->
+    </div>
+    <!--END PRIVACY-->
+
+    <!--IDENTIY MANANGEMENT-->
+    <div id="identity_management_tab" class="content_tab">
+       Identity Management content here
+    </div>
+    <!--END PRIVACY-->
+
+    <!--SECURITY ISSUES-->
+    <div id="security_issues_tab" class="content_tab">
+        Security  content here
+    </div>
+    <!--END SECURITY ISSUES-->
+
+
+
+
+</div>
+</body>
+</html>

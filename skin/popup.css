@@ -5,8 +5,7 @@ body
   font-family: Segoe UI, Arial, sans-serif;
   font-size: 13px;
   color: #545454;
-  background-color: #f8f6f2;
-  background-image: url(background.png);
+  background:#f9f7f3;
 }
 
 #clickhide-instructions,
@@ -37,10 +36,7 @@ body.disabled #clickhide
 
 header
 {
-  height: 45px;
-  margin-bottom: 40px;
-  border-bottom: 1px solid #e1ddd8;
-  background-image: url(background-main.png);
+  height: 78px;
 }
 
 #logo
@@ -58,7 +54,7 @@ header
 
 #notification, #menu
 {
-  margin-bottom: 10px;
+  width: 210px;
 }
 
 #notification
@@ -160,7 +156,7 @@ footer:hover
     url(background-main.png);
 }
 
-footer .icon
+#options .icon
 {
   background-position: -50px -65px;
 }
@@ -187,17 +183,12 @@ li ul
 li li
 {
   cursor: default;
-  padding: 10px 15px;
+
 }
 
 .menu-item
 {
   padding: 10px 0px 10px 15px;
-}
-
-.menu-item:hover
-{
-  background-color: #ece7df;
 }
 
 .icon
@@ -374,4 +365,143 @@ body.disabled #enabled #enabled-no
 label
 {
   vertical-align: middle;
+}
+
+#operando{
+  padding: 0 20px 0 32px;
+  background:url(../icons/operando/operando.png) no-repeat left center;
+
+}
+.operando_wrapper{
+  width: 300px;
+}
+
+
+.operando_wrapper > ul > li{
+  padding:5px 10px;
+  position: relative;
+}
+
+.operando_wrapper > ul > li:hover{
+    background:#e5e3df;
+}
+
+.operando_wrapper > ul > li:hover{
+    background:#e5e3df;
+}
+
+.operando_wrapper ul > li > div.item_icon{
+  top: 6px;
+  width:32px;
+  height: 32px;
+  float:left;
+  position: absolute;
+}
+
+.operando_wrapper ul > li > div.item_icon.user_icon{
+  background: url(../operando/icons/48X48_OP_User.png) no-repeat left center;
+}
+
+.operando_wrapper ul > li > div.item_icon.privacy_issues_icon{
+  background: url(../operando/icons/48X48_OP_Privacy_Issues.png) no-repeat left center;
+}
+
+.operando_wrapper ul > li > div.item_icon.privacy_settings_icon{
+  background: url(../operando/icons/48X48_OP_Privacy_Settings.png) no-repeat left center;
+}
+
+.operando_wrapper ul > li > div.item_icon.dashboard_icon{
+  background: url(../operando/icons/48X48_OP_Dashboard.png) no-repeat left center;
+}
+
+.operando_wrapper ul > li > div.item_icon.abp_icon{
+  background: url(../operando/icons/48X48_OP_ABP.png) no-repeat left center;
+}
+
+.operando_wrapper ul > li > div.item_icon.about_icon{
+  background: url(../operando/icons/operando_logo.png) no-repeat left center;
+}
+
+.operando_wrapper ul > li .right_content{
+  width: 100%;
+}
+
+.operando_wrapper ul > li:after{
+  clear:both;
+  display: block;
+  position: relative;
+  content:"";
+}
+
+.operando_wrapper ul > li a{
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: arial;
+  padding: 8px 9px 10px 50px;
+  color: #646464;
+}
+
+.user_area{
+  height: 70px;
+}
+
+.user_area span{
+  margin-left: 40px;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.user_actions{
+  clear: both;
+  margin-left: 40px;
+  margin-top: 14px;
+}
+.user_actions button{
+  background: #fcc379;
+  height: 26px;
+  border: none;
+  color: #111111;
+  cursor: pointer;
+}
+
+.user_actions button:hover{
+  background: #ebb064;
+}
+
+#wrapperabp{
+  display: none;
+}
+#wrapperabp.visible{
+  display: block;
+}
+
+#operando_abp{
+  background: #ece7df;
+}
+
+div#expand_abp{
+  position: absolute;
+  right:10px;
+  top:18px;
+  width:11px;
+  height:11px;
+  display: block;
+  background: url(../operando/icons/collapsed.png) no-repeat left center;
+}
+div#expand_abp.expanded{
+  background: url(../operando/icons/expanded.png) no-repeat left center;
+}
+
+#share,#show-iconnumber,.operando_hide{
+    display: none;
+}
+
+.operando_wrapper > ul > li ul#menu > li:hover{
+    background: #dbd6cd;
+}
+
+#menu #options{
+    margin-bottom: -5px;
 }
